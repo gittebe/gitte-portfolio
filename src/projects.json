@@ -1,5 +1,26 @@
 [
   {
+    "cardImage": "/assets/movie.png",
+    "alt": "Image of Project",
+    "header": "Movies",
+    "liveDemo": "https://gittesmoviesite.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-movies"
+  },
+  {
+    "cardImage": "/assets/kindness-compession.png",
+    "alt": "Image of Project",
+    "header": "Kindness",
+    "liveDemo": "https://project-design-handoff.netlify.app/",
+    "viewCode": "https://github.com/Technigo/project-design-handoff-vite/pull/73"
+  },
+  {
+    "cardImage": "/assets/portfolio.png",
+    "alt": "Image of Project",
+    "header": "Portfolio",
+    "liveDemo": "https://portfolio-gitte.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-portfolio"
+  },
+  {
     "cardImage": "/assets/multi-step-form.png",
     "alt": "Image of Project",
     "header": "Multi-Step Form",
