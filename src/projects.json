@@ -1,0 +1,65 @@
+[
+  {
+    "cardImage": "/assets/multi-step-form.png",
+    "alt": "Image of Project",
+    "header": "Multi-Step Form",
+    "liveDemo": "https://superpower-shenanigans.netlify.app/",
+    "viewCode": "https://github.com/gabster94/project-survey-vite"
+  },
+  {
+    "cardImage": "/assets/happy-thought.png",
+    "alt": "Happy Thoughts Project",
+    "header": "Happy Thoughts",
+    "liveDemo": "https://post-happy-thoughts.netlify.app",
+    "viewCode": "https://github.com/gittebe/project-happy-thoughts-vite"
+  },
+  {
+    "cardImage": "/assets/music-release-project.png",
+    "alt": "Music Release",
+    "header": "Music Release",
+    "liveDemo": "https://gittes-music-release.netlify.app",
+    "viewCode": "https://github.com/gittebe/project-music-releases-vite"
+  },
+  {
+    "cardImage": "/assets/weather-app-project.png",
+    "alt": "Weather App",
+    "header": "Weather App",
+    "liveDemo": "https://gittes-weather-app.netlify.app",
+    "viewCode": "https://github.com/gittebe/project-weather-app"
+  },
+  {
+    "cardImage": "/assets/seafood-restaurant.png",
+    "alt": "Screenshot of a Chatbot Example",
+    "header": "Restaurant Bot",
+    "liveDemo": "https://seafood-restaurant-order-bot.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-chatbot"
+  },
+  {
+    "cardImage": "/assets/library-project.png",
+    "alt": "Recipe Library",
+    "header": "Recipe Library",
+    "liveDemo": "https://library-recipes.netlify.app",
+    "viewCode": "https://github.com/gittebe/project-library"
+  },
+  {
+    "cardImage": "/assets/pizza-bot.png",
+    "alt": "Bot Project",
+    "header": "Pizza & Café Bot",
+    "liveDemo": "https://pizza-pasta-salad.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-pizza"
+  },
+  {
+    "cardImage": "/assets/business-site.png",
+    "alt": "Concert House",
+    "header": "Business Site",
+    "liveDemo": "https://concert-house.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-business-site"
+  },
+  {
+    "cardImage": "/assets/newssite-project.png",
+    "alt": "Project News Site",
+    "header": "News Site",
+    "liveDemo": "https://newspage-gitte.netlify.app/",
+    "viewCode": "https://github.com/gittebe/project-news-site"
+  }
+]

@@ -1,0 +1,21 @@
+.grid-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 667px) {
+  .grid-section {
+    grid-template-columns: repeat(8, 1fr);
+  }
+}
+
+@media(min-width: 1024px) {
+  .grid-section {
+    grid-template-columns: repeat(12, 1fr)
+  }
+}
+
+.neutral-background {
+  background: var(--color-neutral);
+}

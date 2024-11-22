@@ -1,0 +1,17 @@
+.journey-section {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-secondary);
+  margin-top: 4rem;
+}
+
+.journey-scroll-container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  gap: 1rem;
+  white-space: nowrap;
+  margin-top: 4rem;
+  margin-bottom: 9.12rem;
+  align-items: flex-start;
+}

@@ -1,0 +1,57 @@
+.bio-image-container {
+  position: relative;
+  max-width: 29.73288rem;
+  height: 34.16569rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-shrink: 0;
+  z-index: 1;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.bio-image {
+  position: absolute;
+  bottom: 0;
+  border-radius: 27.061rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  border: var(--color-primary) 6px solid;
+}
+
+.bio-image-top-layer {
+  position: absolute;
+  top: 0;
+  height: 19.50676rem;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-image {
+  position: absolute;
+  bottom: 0;
+  border-radius: 27.061rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  border: var(--color-primary) 6px solid;
+}
+
+.footer-image-top-layer {
+  position: absolute;
+  top: 0;
+  height: 17.776rem;
+  width: 100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+}

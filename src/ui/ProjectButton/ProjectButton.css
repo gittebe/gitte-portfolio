@@ -1,0 +1,26 @@
+.project-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  padding: 0rem 1rem;
+  border-radius: 0.75rem;
+  color: inherit;
+  border: 2px solid var(--color-primary)
+}
+
+.project-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.primary-background {
+  background-color: var(--color-primary);
+  color: var(--color-neutral);
+}
+
+.neutral-background {
+  background-color: var(--color-neutral);
+  color: var(--color-primary);
+}

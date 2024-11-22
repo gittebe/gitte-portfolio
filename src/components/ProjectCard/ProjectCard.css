@@ -1,0 +1,29 @@
+.project-card {
+    margin-top: 4rem;
+    width: 13.5rem;
+    flex: 0 0 auto;
+    flex-direction: column;
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.project-title {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+@media(min-width: 1024px) {
+    .project-card {
+        width: 25rem;
+        margin: 2rem;
+    }
+}

@@ -1,0 +1,29 @@
+.skills-section {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  color: var(--color-secondary);
+}
+
+.spacer-one {
+  height: 4rem;
+}
+
+@media(min-width: 667px) {
+  .skills-section {
+    grid-column: span 8;
+  }
+}
+
+@media(min-width: 1024px) {
+  .skills-section {
+    grid-column: span 12;
+  }
+
+  .skills-container {
+    display: flex;
+  }
+}

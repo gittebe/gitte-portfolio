@@ -1,0 +1,42 @@
+.bio-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-secondary);
+  margin-top: 4rem;
+  padding: 5px;
+}
+
+@media(min-width: 667px) {
+  .bio-section {
+    justify-content: space-around;
+    padding: 1.5rem;
+  }
+
+  .bio-header {
+    max-width: 600px;
+    display: flex;
+  }
+
+  .bio-body {
+    display: flex;
+    padding-right: 30px;
+  }
+}
+
+@media(min-width: 1024px) {
+  .bio-section {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .bio-header {
+    width: 50%;
+  }
+
+  .bio-body {
+    display: flex;
+    margin-right: 20px;
+  }
+}

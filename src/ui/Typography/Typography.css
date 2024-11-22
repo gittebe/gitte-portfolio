@@ -1,0 +1,76 @@
+.header-one {
+  font-family: Urbanist;
+  font-size: 3.75rem;
+  font-weight: 700;
+  line-height: 3.75rem;
+  margin: 0;
+  padding: 0;
+}
+
+.header-two {
+  grid-column: span 4;
+  color: var(--color-secondary);
+  text-align: center;
+  font-family: Urbanist;
+  font-size: 3.75rem;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.header-three {
+  color: var(--color-secondary);
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  font-family: Poppins;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  margin: 0;
+}
+
+@media(min-width: 667px) {
+  .header-one {
+    font-size: 5rem;
+    line-height: 6.25rem;
+  }
+
+  .header-two {
+    grid-column: span 8;
+  }
+
+  .body {
+    font-size: 1.125rem;
+  }
+}
+
+@media(min-width: 1024px) {
+  .header-one {
+    font-size: 6.25rem;
+    line-height: 6.25rem;
+  }
+
+  .header-two {
+    grid-column: span 12;
+    font-size: 5rem;
+  }
+
+  .header-three {
+    font-size: 1.875rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.469rem;
+  }
+
+  .body {
+    font-size: 1.125rem;
+    line-height: 2rem;
+  }
+}

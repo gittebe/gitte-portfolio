@@ -1,0 +1,35 @@
+.footer-card {
+  grid-column: span 4;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.media-button-div {
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.footer-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 1.5rem;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+@media(min-width: 667px) {
+  .footer-card {
+    grid-column: span 8;
+  }
+}
+
+@media(min-width: 1024px) {
+  .footer-card {
+    grid-column: span 12;
+  }
+}

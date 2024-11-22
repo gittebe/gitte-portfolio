@@ -1,0 +1,17 @@
+[
+    {
+        "cardImage": "./assets/img.png",
+        "alt": "alt",
+        "header": "How to stop being scared: Learning to love code"
+    },
+    {
+        "cardImage": "./assets/img.png",
+        "alt": "alt",
+        "header": "My first Code review"
+    },
+    {
+        "cardImage": "./assets/img.png",
+        "alt": "alt",
+        "header": "My first Code review"
+    }
+]
