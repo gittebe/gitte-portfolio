@@ -14,7 +14,7 @@ export const BioCard = () => {
         </HeaderOne>
         <div className="spacer-one"></div>
         <Body>
-          Sara is an exceptional developer known for her innovative solutions and exceptional coding abilities. She creates user-friendly applications and solves complex issues with ease. Her drive for excellence makes her a valuable asset to any project and a standout in the technology field.
+          I am a junior web developer with a strong background in problem-solving and creating user-friendly applications. With a diverse international professional journey, including teaching, research, and project management, I bring a unique perspective to my work. I am passionate about developing intuitive web solutions that prioritize functionality and user experience.
         </Body>
         <div className="spacer-two"></div>
         <MediaButtonContainer />

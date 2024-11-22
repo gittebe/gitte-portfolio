@@ -5,18 +5,10 @@
   flex-direction: column;
 }
 
-.footer-image-container {
-  grid-column: span 4;
+.footer-card-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
-}
-
-.footer-card-container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
 @media(min-width: 667px) {

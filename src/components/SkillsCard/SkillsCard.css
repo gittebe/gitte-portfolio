@@ -39,6 +39,7 @@
     .skills-box {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
         border-right: solid 2px var(--color-primary);
         height: 100%;
         width: 100%;
@@ -46,7 +47,11 @@
     }
 
     .skills-card {
-        width: 11.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 18rem;
     }
 
     .skills-card:last-child .skills-box {

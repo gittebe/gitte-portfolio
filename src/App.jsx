@@ -11,8 +11,8 @@ function App() {
       <BioSection />
       <SkillsSection />
       <ProjectsSection />
-      <TechSection />
-      <JourneySection />
+      {/* <TechSection /> */}
+      {/* <JourneySection /> */}
       <FooterSection />
     </>
   )

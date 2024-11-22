@@ -13,17 +13,17 @@ export const SkillsSection = () => {
         <div className="spacer-one"></div>
         <div className="skills-container">
           <SkillsCard
-            header="Code"
-            body={["HTML5", "CSS3", "JavaScrip", "React", "GitHub"]} />
+            header="Languages"
+            body={["HTML5", "CSS3", "JavaScript"]} />
           <SkillsCard
-            header="Toolbox"
-            body={["Postman", "Figma", "Slack"]} />
+            header="Tech"
+            body={["React", "Global State Management", "DOM Manipulation", "Responsive Design", "Styled Components", "Zustand", "Node"]} />
           <SkillsCard
-            header="Upcoming"
-            body={["Node.js"]} />
+            header="Dev Tools"
+            body={["Command Line (terminal)", "Git", "Github", "VS Code", "Chrome dev tools", "Netlify", "Postman"]} />
           <SkillsCard
             header="More"
-            body={["Concept", "Development"]} />
+            body={["Project Management", "Qualitative Reasearch", "German", "English", "Swedish"]} />
         </div>
       </section>
     </Grid>
