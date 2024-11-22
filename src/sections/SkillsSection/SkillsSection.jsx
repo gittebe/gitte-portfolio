@@ -23,7 +23,7 @@ export const SkillsSection = () => {
             body={["Command Line (terminal)", "Git", "Github", "VS Code", "Chrome dev tools", "Netlify", "Postman"]} />
           <SkillsCard
             header="More"
-            body={["Project Management", "Qualitative Reasearch", "German", "English", "Swedish"]} />
+            body={["Project Management", "Qualitative Research", "German", "English", "Swedish"]} />
         </div>
       </section>
     </Grid>
