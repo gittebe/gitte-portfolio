@@ -1,5 +1,5 @@
 # Netlify link:
-https://portfolio-gitte.netlify.app/
+https://portfolio-gittebe.netlify.app/
 
 
 
