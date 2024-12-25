@@ -10,7 +10,7 @@ export const BioCard = () => {
           I am Gitte Beckmann
         </HeaderThree>
         <HeaderOne>
-          Frontend Developer
+          Web Developer
         </HeaderOne>
         <div className="spacer-one"></div>
         <Body>
