@@ -17,7 +17,7 @@ export const SkillsSection = () => {
             body={["HTML5", "CSS3", "JavaScript", "TypeScript"]} />
           <SkillsCard
             header="Tech"
-            body={["React", "Global State Management", "DOM Manipulation", "Responsive Design", "Styled Components", "Zustand", "Node.js", "Express.js", "Mongo", "Mongoose"]} />
+            body={["React", "Global State Management", "DOM Manipulation", "Responsive Design", "Styled Components", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose"]} />
           <SkillsCard
             header="Dev Tools"
             body={["Command Line (terminal)", "Git", "Github", "VS Code", "Chrome dev tools", "Netlify", "Postman"]} />

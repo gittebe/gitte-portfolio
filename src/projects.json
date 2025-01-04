@@ -28,6 +28,13 @@
     "viewCode": "https://github.com/gabster94/project-survey-vite"
   },
   {
+    "cardImage": "/assets/APIHappyThoughts.png",
+    "alt": "Image of Backend Project",
+    "header": "API Happy Thoughts",
+    "liveDemo": "https://project-happy-thoughts-api-production-5d1d.up.railway.app/",
+    "viewCode": "https://github.com/gittebe/project-happy-thoughts-api"
+  },
+  {
     "cardImage": "/assets/happy-thought.png",
     "alt": "Happy Thoughts Project",
     "header": "Happy Thoughts",
