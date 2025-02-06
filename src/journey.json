@@ -1,17 +1,20 @@
 [
     {
-        "cardImage": "./assets/img.png",
+        "cardImage": "./assets/wheelchair.jpg",
         "alt": "alt",
-        "header": "How to stop being scared: Learning to love code"
+        "header": "Technologies - Life-Changing or Unused Trash",
+        "article": "This project was conducted in the East African country of Uganda, where I explored questions surrounding technology, particularly those used or not used by disabled people. Coming from a background in social and cultural anthropology, I investigated which technologies are useful, and why. In which situations and for whom? I also examined how people modify or adapt technologies to make them more functional. Undoubtedly, many technologies remain unused because they aren’t beneficial in specific contexts or for certain individuals. For instance, using a wheelchair with small front wheels on a muddy, rocky path to fetch water with a canister from a lake turns what is supposed to be a helpful device into a burdensome one. My interactions with disabled people and the focus on technology have shifted my perspective on how I view and evaluate technologies. It’s become clear to me that only a user-centered approach can lead to the creation of truly useful and functional technologies. I had the privilege of coordinating an international research group focused on disability and technology in Uganda, where I learned so much! Want to know more about the project? Take a look here…"
     },
     {
         "cardImage": "./assets/img.png",
         "alt": "alt",
-        "header": "My first Code review"
+        "header": "Technologies Can Turn Your Worldview Upside Down",
+        "article": "On my many visits to a remote home in Acholiland, Northern Uganda, I had the opportunity to engage with my research participants—many of whom I now consider friends. These visits were a chance to chat, learn, and ask more questions. Our communication took place in Ugandan Sign Language or local signs, sometimes with the help of a translator, sometimes without. Learning Ugandan Sign Language is a relatively recent development—only about 25 years ago, with support from national and international NGOs, as well as a political push for the rights of disabled people, it was introduced in Northern Uganda during the time of war. The impact on the lives of deaf individuals in the region has been profound and life-changing. From the perspective of international development, sign language is often seen as a 'technology' that, once implemented, can bring about positive change. However, my experience in Uganda led me to realize that technologies do more than just facilitate communication—they can fundamentally change one's sense of being in the world. This shift in perspective is a reminder that technologies, especially those designed with inclusivity in mind, can truly reshape our realities."
     },
     {
         "cardImage": "./assets/img.png",
         "alt": "alt",
-        "header": "My first Code review"
+        "header": "My first Code review",
+        "article": ""
     }
 ]

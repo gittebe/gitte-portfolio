@@ -12,7 +12,7 @@ function App() {
       <SkillsSection />
       <ProjectsSection />
       {/* <TechSection /> */}
-      {/* <JourneySection /> */}
+      <JourneySection />
       <FooterSection />
     </>
   )

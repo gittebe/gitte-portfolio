@@ -22,6 +22,12 @@
   white-space: normal;
 }
 
+.journey-description {
+  width: 100%;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
 @media(min-width: 1024px) {
   .journey-card {
     width: 25rem;
