@@ -11,8 +11,9 @@
 }
 
 .project-button:hover {
-  transform: scale(1.1);
+  background-color: #b35900;
   cursor: pointer;
+  color: white;
 }
 
 .primary-background {

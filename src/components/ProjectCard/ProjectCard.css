@@ -5,6 +5,7 @@
     flex-direction: column;
     display: inline-block;
     margin: 0.5rem;
+    overflow: hidden;
 }
 
 .button-container {
@@ -21,9 +22,19 @@
     white-space: normal;
 }
 
+.project-description-container {
+    width: 100%;
+    word-wrap: break-word;
+    white-space: normal;
+    height: 20rem;
+}
+
 @media(min-width: 1024px) {
     .project-card {
         width: 25rem;
         margin: 2rem;
+    }
+    .project-description-container {
+        height: 10rem;
     }
 }
