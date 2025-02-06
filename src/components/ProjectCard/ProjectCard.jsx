@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { CardImage } from "../../ui/CardImage/CardImage"
 import { ProjectButton } from "../../ui/ProjectButton/ProjectButton"
-import { HeaderThree } from "../../ui/Typography/Typography"
+import { HeaderThree, Body} from "../../ui/Typography/Typography"
 import "./ProjectCard.css"
 import projectData from "../../../src/projects.json"
 
@@ -19,6 +19,9 @@ export const ProjectCard = () => {
           <CardImage cardImage={project.cardImage} alt={project.alt} />
           <div className="project-title">
             <HeaderThree>{project.header}</HeaderThree>
+          </div>
+          <div className="project-description-container">
+            <Body>{project.description}</Body>
           </div>
           <div className="button-container">
             <ProjectButton
