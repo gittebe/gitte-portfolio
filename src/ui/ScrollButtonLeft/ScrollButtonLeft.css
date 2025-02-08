@@ -1,0 +1,17 @@
+.scroll-button-left{
+    background-color: #FD6F00;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.arrow-left-icon{
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+}
