@@ -7,7 +7,7 @@ import { ScrollButtonLeft } from "../../ui/ScrollButtonLeft/ScrollButtonLeft";
 import { ScrollButtonRight } from "../../ui/ScrollButtonRight/ScrollButtonRight";
 
 export const ProjectsSection = () => {
-  const [scrollLeft, setScrollLeft] = useState(0);
+  // const [scrollLeft, setScrollLeft] = useState(0);
   const containerRef = useRef(null);
 
   const scroll = (direction) => {
@@ -17,9 +17,7 @@ export const ProjectsSection = () => {
     }
   }
   const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
+    infinite: false,
     slidesToShow: 1,
     slidesToScroll: 1,
   };
@@ -38,7 +36,9 @@ export const ProjectsSection = () => {
       </div>
 
       <div className="projects-scroll-container-mobile">
-          <ProjectCard></ProjectCard>
+          <Slider {...settings}>
+            <ProjectCard></ProjectCard>
+          </Slider>
       </div>
     </section>
   )
