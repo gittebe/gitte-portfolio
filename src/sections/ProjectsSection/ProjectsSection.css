@@ -1,3 +1,13 @@
+.project-section-container {
+  display: none;
+}
+@media(min-width: 668px){
+  .project-section-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .projects-section {
   display: flex;
   flex-direction: column;
@@ -12,3 +22,26 @@
   margin-top: 4rem;
   margin-bottom: 9.12rem;
 }
+.scroll-button-left{
+  display: flex;
+}
+}
+
+.projects-scroll-container-mobile{
+  overflow-x: auto;
+  gap: 1rem;
+  white-space: nowrap;
+  margin-top: 4rem;
+  margin-bottom: 9.12rem;
+}
+
+@media(min-width: 668px){
+  .projects-scroll-container-mobile{
+    display: none;
+  }
+}
+
+
+
+
+
