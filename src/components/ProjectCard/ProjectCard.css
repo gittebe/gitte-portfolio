@@ -22,13 +22,17 @@
     width: 100%;
     word-wrap: break-word;
     white-space: normal;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .project-description-container {
-    width: 100%;
+    width: 98%;
     word-wrap: break-word;
     white-space: normal;
     height: 20rem;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 @media(min-width: 1024px) {
