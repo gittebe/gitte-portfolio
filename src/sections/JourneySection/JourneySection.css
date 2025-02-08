@@ -6,12 +6,16 @@
 }
 
 .journey-scroll-container {
-  display: flex;
+  /* display: flex;
   overflow-x: auto;
   overflow-y: hidden;
   gap: 1rem;
   white-space: nowrap;
   margin-top: 4rem;
   margin-bottom: 9.12rem;
-  align-items: flex-start;
+  align-items: flex-start; */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10px;
 }

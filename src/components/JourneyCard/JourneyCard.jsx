@@ -7,9 +7,21 @@ import "./JourneyCard.css"
 
 export const JourneyCard = () => {
   const [journey, setJourney] = useState([])
+  const [expanded, setExpanded] = useState({})
   useEffect(() => {
     setJourney(journeyData)
   }, [])
+
+  const handleExpand = (index) => {
+    setExpanded((prevState) => ({
+      ...prevState,
+      [index]: !prevState[index]
+    }))
+  }
+  const truncateText = (text, length) => {
+    if (text.length <= length) return text;
+    return text.slice(0, length) + "...";
+  };
 
   return (
     <>
@@ -20,10 +32,16 @@ export const JourneyCard = () => {
             <HeaderThree>{journey.header}</HeaderThree>
           </div>
           <div className="journey-description">
+            {expanded[index] ? (
             <Body>{journey.article}</Body>
+            ) : (
+            <Body>{truncateText(journey.article, 100)}</Body>
+            )}
           </div>
           <div className="button-container">
-            <ProjectButton label="Read Article" background="neutral"></ProjectButton>
+            <ProjectButton label={expanded[index] ? "Show Less" : "Read Article"}
+              background="neutral"
+              onClick={() => handleExpand(index)}></ProjectButton>
           </div>
         </div>
       ))}
