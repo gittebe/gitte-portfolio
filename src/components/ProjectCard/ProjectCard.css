@@ -1,11 +1,13 @@
 .project-card {
     margin-top: 4rem;
-    width: 13.5rem;
+    width: 18rem;
     flex: 0 0 auto;
     flex-direction: column;
     display: inline-block;
     margin: 0.5rem;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
 }
 
 .button-container {
