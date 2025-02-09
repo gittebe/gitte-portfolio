@@ -5,6 +5,18 @@ import { CardImage } from "../../ui/CardImage/CardImage"
 import journeyData from "../../../src/journey.json"
 import "./JourneyCard.css"
 
+const parseArticle = (article) => {
+  const paragraphs = article.split('</p>');
+  return paragraphs.map((paragraph, index) => {
+    if (paragraph.trim()) {
+      return (
+        <p key={index}>{paragraph.replace(/<p>/g, "").trim()}</p>
+      );
+    }
+    return null;
+  });
+};
+
 export const JourneyCard = () => {
   const [journey, setJourney] = useState([])
   const [expanded, setExpanded] = useState({})
@@ -18,10 +30,13 @@ export const JourneyCard = () => {
       [index]: !prevState[index]
     }))
   }
+  
   const truncateText = (text, length) => {
-    if (text.length <= length) return text;
-    return text.slice(0, length) + "...";
+    const tempText = text.replace(/<\/?[^>]+(>|$)/g, "");  // deletes HTML-Tags
+    if (tempText.length <= length) return tempText;
+    return tempText.slice(0, length) + "...";
   };
+
 
   return (
     <>
@@ -33,7 +48,7 @@ export const JourneyCard = () => {
           </div>
           <div className="journey-description">
             {expanded[index] ? (
-            <Body>{journey.article}</Body>
+            <Body>{parseArticle(journey.article)}</Body>
             ) : (
             <Body>{truncateText(journey.article, 100)}</Body>
             )}
