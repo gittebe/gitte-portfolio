@@ -1,21 +1,15 @@
 .journey-section {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--color-secondary);
-  margin-top: 4rem;
+  margin-top: 3rem;
 }
 
 .journey-scroll-container {
-  /* display: flex;
-  overflow-x: auto;
-  overflow-y: hidden;
-  gap: 1rem;
-  white-space: nowrap;
-  margin-top: 4rem;
-  margin-bottom: 9.12rem;
-  align-items: flex-start; */
   display: grid;
+  width: 80%;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 10px;
-  padding: 10px;
+  gap: 2rem;
 }
