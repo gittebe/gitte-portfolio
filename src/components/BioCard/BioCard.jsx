@@ -14,7 +14,7 @@ export const BioCard = () => {
         </HeaderOne>
         <div className="spacer-one"></div>
         <Body>
-          I am a web developer with a strong background in problem-solving and creating user-friendly applications. With a diverse international professional journey, including teaching, research, and project management, I bring a unique perspective to my work. I am passionate about developing intuitive web solutions that prioritize functionality and user experience.
+        As a web developer, I focus on building user-friendly, functional applications. My experience in teaching, research, and project management gives me a unique approach to problem-solving. Passionate about intuitive web solutions, I prioritize user experience and performance. Always eager to learn, I see every bug 🐛 as an opportunity to grow 🌱.
         </Body>
         <div className="spacer-two"></div>
         <MediaButtonContainer />
