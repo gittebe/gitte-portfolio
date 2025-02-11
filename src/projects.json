@@ -1,5 +1,13 @@
 [
   {
+    "cardImage": "/assets/legacy-lock.png",
+    "alt": "Project Legacy Lock",
+    "header": "Lecagy Lock",
+    "description":"Legacy Lock is a Virtual Time Capsule app that allows users to create and store messages and images that are to be unlocked at a future date.",
+    "liveDemo": "https://legacy-locket.netlify.app",
+    "viewCode": "https://github.com/gittebe/legacy-lock"
+  },
+  {
     "cardImage": "/assets/movie.png",
     "alt": "Image of Project",
     "header": "Movies",
@@ -8,7 +16,7 @@
     "viewCode": "https://github.com/gittebe/project-movies"
   },
   {
-    "cardImage": "/assets/kindness-compession.png",
+    "cardImage": "/assets/kindness-compassion.png",
     "alt": "Image of Project",
     "header": "Kindness",
     "description":"For this project, I collaborated with a web developer and a UX design student at Technigo Bootcamp to create a community hub website for connecting users, joining support groups, and promoting kindness.",
