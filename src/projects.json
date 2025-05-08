@@ -96,19 +96,19 @@
     "viewCode": "https://github.com/gittebe/project-pizza"
   },
   {
-    "cardImage": "/assets/business-site.png",
-    "alt": "Concert House",
-    "header": "Business Site",
-    "description":"This is a responsive website for a fictional concert venue, 'Concert House', focusing on user registration and mobile-friendly navigation.",
-    "liveDemo": "https://concert-house.netlify.app/",
-    "viewCode": "https://github.com/gittebe/project-business-site"
+    "cardImage": "/assets/cinema-project.png",
+    "alt": "Shows a website with fictional cinema membership sign up form",
+    "header": "Cinema membership",
+    "description":"A responsive and accessible web form for new member registration at the Cinema Club. Includes styled input fields, dropdowns, and a scalable checkbox. Built with HTML and CSS, designed for usability and clean layout across devices.",
+    "liveDemo": "https://cinema-club-membership-form.netlify.app/",
+    "viewCode": "https://github.com/gittebe/cinema-club-form"
   },
   {
-    "cardImage": "/assets/newssite-project.png",
-    "alt": "Project News Site",
-    "header": "News Site",
-    "description":"This website, created for a boot camp project, focuses on 'weaving' and practices HTML, CSS, and responsive design across devices.",
-    "liveDemo": "https://newspage-gitte.netlify.app/",
-    "viewCode": "https://github.com/gittebe/project-news-site"
+    "cardImage": "/assets/pet-shop-project.png",
+    "alt": "Shows a webpage of a fictional Pet Shop",
+    "header": "Pet Shop",
+    "description":"This website is built using only HTML and CSS, with accessible semantic HTML elements and user-friendly color combinations. Websites like this are ideal for static content: they load quickly, need minimal storage, and require very little maintenance.",
+    "liveDemo": "https://pet-shop-paws-and-whiskers.netlify.app/",
+    "viewCode": "https://github.com/gittebe/Pet-Shop?tab=readme-ov-file"
   }
 ]
