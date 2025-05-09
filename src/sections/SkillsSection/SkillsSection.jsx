@@ -14,13 +14,13 @@ export const SkillsSection = () => {
         <div className="skills-container">
           <SkillsCard
             header="Languages"
-            body={["HTML5", "CSS3", "JavaScript", "TypeScript", "Java"]} />
+            body={["HTML5", "CSS3", "JavaScript", "TypeScript", "Java", "SQL"]} />
           <SkillsCard
             header="Tech"
             body={["React", "Global State Management", "DOM Manipulation", "Responsive Design", "Styled Components", "Zustand", "Node.js", "Express.js", "MongoDB", "Mongoose"]} />
           <SkillsCard
             header="Dev Tools"
-            body={["Command Line (terminal)", "Git", "Github", "VS Code", "Chrome dev tools", "Postman"]} />
+            body={["Figma", "Github", "VS Code", "Chrome dev tools", "Postman", "Accessibility"]} />
           <SkillsCard
             header="More"
             body={["Project Management", "Qualitative Research", "German", "English", "Swedish"]} />

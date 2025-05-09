@@ -11,17 +11,17 @@
 }
 
 .project-button:hover {
-  background-color: #b35900;
+  background-color: var(--color-secondary);
   cursor: pointer;
-  color: white;
+  color: var(--color-neutral);
 }
 
 .primary-background {
   background-color: var(--color-primary);
-  color: var(--color-neutral);
+  color: var(--color-secondary);
 }
 
 .neutral-background {
   background-color: var(--color-neutral);
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }

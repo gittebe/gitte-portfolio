@@ -1,5 +1,5 @@
 .scroll-button-right{
-    background-color: #FD6F00;
+    background-color: var(--color-primary);
     border: none;
     border-radius: 10px;
     display: flex;

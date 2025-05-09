@@ -1,13 +1,5 @@
 [
   {
-    "cardImage": "/assets/legacy-lock.png",
-    "alt": "Project Legacy Lock",
-    "header": "Lecagy Lock",
-    "description":"Legacy Lock is a Virtual Time Capsule app that allows users to create and store messages and images that are to be unlocked at a future date.",
-    "liveDemo": "https://legacy-locket.netlify.app",
-    "viewCode": "https://github.com/gittebe/legacy-lock"
-  },
-  {
     "cardImage": "/assets/movie.png",
     "alt": "Image of Project",
     "header": "Movies",
@@ -24,28 +16,12 @@
     "viewCode": "https://github.com/Technigo/project-design-handoff-vite/pull/73"
   },
   {
-    "cardImage": "/assets/portfolio.png",
-    "alt": "Image of Project",
-    "header": "Portfolio",
-    "description":"This project is a personal portfolio website that highlights the skills, journey, and projects of a developer. I created the site based on a provided Figma design.",
-    "liveDemo": "https://portfolio-gitte.netlify.app/",
-    "viewCode": "https://github.com/gittebe/project-portfolio"
-  },
-  {
     "cardImage": "/assets/multi-step-form.png",
     "alt": "Image of Project",
     "header": "Multi-Step Form",
     "description":"A fun, multi-step form that lets users create their own superhero, from name to costume to superpower. Built in collaboration with another development student.",
     "liveDemo": "https://superpower-shenanigans.netlify.app/",
     "viewCode": "https://github.com/gabster94/project-survey-vite"
-  },
-  {
-    "cardImage": "/assets/APIHappyThoughts.png",
-    "alt": "Image of Backend Project",
-    "header": "API Happy Thoughts",
-    "description":"This backend API for the Happy Thoughts app, built with Express.js and MongoDB (via Mongoose), lets users post, retrieve, and like thoughts. Data is stored in MongoDB, and likes update a heart count for each thought.",
-    "liveDemo": "https://project-happy-thoughts-api-production-5d1d.up.railway.app/",
-    "viewCode": "https://github.com/gittebe/project-happy-thoughts-api"
   },
   {
     "cardImage": "/assets/happy-thought.png",

@@ -1,5 +1,5 @@
 import { HeaderTwo, Body } from "../../ui/Typography/Typography"
-import { MediaButtonContainer } from "../MediaButtonContainer/MediaButtonContainer"
+import { MediaLinkContainer } from "../MediaLinkContainer/MediaLinkContainer"
 import "./FooterCard.css"
 
 export const FooterCard = () => {
@@ -14,7 +14,7 @@ export const FooterCard = () => {
         <Body> gittebeckmann@hotmail.com</Body>
       </div>
       <div className="media-button-div">
-        <MediaButtonContainer />
+        <MediaLinkContainer />
       </div>
     </div>
   )
