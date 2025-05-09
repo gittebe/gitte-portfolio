@@ -11,7 +11,6 @@ function App() {
       <BioSection />
       <SkillsSection />
       <ProjectsSection />
-      {/* <TechSection /> */}
       <JourneySection />
       <FooterSection />
     </>

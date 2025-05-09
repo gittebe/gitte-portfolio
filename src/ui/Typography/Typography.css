@@ -1,4 +1,5 @@
 .header-one {
+  color: var(--color-primary);
   font-family: Urbanist;
   font-size: 3.75rem;
   font-weight: 700;
@@ -9,7 +10,7 @@
 
 .header-two {
   grid-column: span 4;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   text-align: center;
   font-family: Urbanist;
   font-size: 3.75rem;
@@ -19,7 +20,7 @@
 }
 
 .header-three {
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-family: Poppins;
   font-size: 1.5rem;
   font-weight: 500;
@@ -35,6 +36,7 @@
   font-weight: 400;
   line-height: 2rem;
   margin: 0;
+  color: var(--color-secondary);
 }
 
 @media(min-width: 667px) {
