@@ -1,5 +1,5 @@
 .header-one {
-  font-family: Urbanist;
+  font-family: 'Roboto', sans-serif;
   font-size: 3.75rem;
   font-weight: 700;
   line-height: 3.75rem;
@@ -8,9 +8,9 @@
 }
 
 .header-two {
+  font-family: 'Roboto', sans-serif;
   grid-column: span 4;
   text-align: center;
-  font-family: Urbanist;
   font-size: 3.75rem;
   font-weight: 700;
   margin: 0;
@@ -18,7 +18,7 @@
 }
 
 .header-three {
-  font-family: Poppins;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
   margin: 0;
@@ -27,7 +27,7 @@
 }
 
 .body {
-  font-family: Poppins;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.125rem;
   font-style: normal;
   font-weight: 400;
