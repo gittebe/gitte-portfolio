@@ -35,6 +35,7 @@ export const ContactForm = () => {
             name="bot-field"
             value={formData.botField}
             onChange={handleChange}
+            autoComplete="off"
           />
         </label>
       </p>

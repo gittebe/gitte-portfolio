@@ -51,3 +51,8 @@ button:hover{
   color: var(--color-neutral);
   border: var(--color-neutral);
 }
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-secondary)
+}
