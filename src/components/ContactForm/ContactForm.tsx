@@ -6,7 +6,7 @@ export const ContactForm = () => {
     name: "",
     email: "",
     message: "",
-    botField: ""
+    botField: "",
   });
 
   // Handle input change
@@ -43,31 +43,37 @@ export const ContactForm = () => {
       <input
         type="text"
         name="name"
+        id="name"
         placeholder="Name"
         value={formData.name}
         onChange={handleChange}
         required
+        autoComplete="name"
       /><br />
 
       <label htmlFor="email">Email</label><br />
       <input
         type="email"
         name="email"
+        id="email"
         placeholder="Email address"
         value={formData.email}
         onChange={handleChange}
         required
+        autoComplete="email"
       /><br />
 
       <label htmlFor="message">Message</label><br />
       <textarea
         name="message"
+        id="message"
         placeholder="Type your message here..."
         value={formData.message}
         onChange={handleChange}
         rows={10}
         cols={20}
         required
+        autoComplete="off"
       ></textarea><br />
       <div className='button-container'>
         <button type="submit">SEND</button>
