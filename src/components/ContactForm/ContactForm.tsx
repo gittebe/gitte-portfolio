@@ -21,14 +21,11 @@ export const ContactForm = () => {
     <form
       name="portfolio-contact"
       method="POST"
-      action="/success"  // ← optional redirect page after submission
+      action="/success"
       data-netlify="true"
       netlify-honeypot="bot-field"
     >
-      {/* Netlify form name (hidden input) */}
       <input type="hidden" name="form-name" value="portfolio-contact" />
-
-      {/* Honeypot field */}
       <p style={{ display: "none" }}>
         <label>
           Don’t fill this out if you’re human:
