@@ -1,9 +1,19 @@
-import "./Navigation.css"
+import "./Navigation.css";
+import {useState} from "react";
 
 export const Navigation = () => {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+  const toggleMenu = () => setMenuOpen(!isMenuOpen)
+
   return (
-    <section id="top"className="navigation-section">
-    <ul className="ul-navigation">
+    <section id="top" className="navigation-section">
+      <div className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+        <div className="bar"></div>
+        <div className="bar"></div>
+        <div className="bar"></div>
+      </div>
+
+    <ul className={`ul-navigation ${isMenuOpen ? "open" : ""}`}>
       <li className="li-navigation"><a href="#top" >Home</a></li>
       <li className="li-navigation"><a href="#skills">Skills</a></li>
       <li className="li-navigation"><a href="#projects">Projects</a></li>
