@@ -1,37 +1,8 @@
 .footer-section {
   color: var(--color-secondary);
-  grid-column: span 4;
   display: flex;
   flex-direction: column;
-}
-
-.footer-card-container {
-  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-@media(min-width: 667px) {
-  .footer-card-container {
-    margin-left: 40px;
-  }
-
-  .footer-section {
-    grid-column: span 8;
-  }
-
-  .footer-image-container {
-    grid-column: span 8;
-  }
-}
-
-@media(min-width: 1024px) {
-  .footer-section {
-    flex-direction: row;
-    grid-column: span 12;
-  }
-
-  .footer-image-container {
-    width: 50%;
-  }
+  width: 100%;
 }

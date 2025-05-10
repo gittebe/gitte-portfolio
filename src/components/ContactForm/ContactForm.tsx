@@ -20,6 +20,7 @@ export const ContactForm = () => {
 
   return (
     <form
+      className="contact-form"
       name="portfolio-contact"
       method="POST"
       action="/success"

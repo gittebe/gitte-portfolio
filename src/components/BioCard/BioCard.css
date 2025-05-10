@@ -6,9 +6,6 @@
 .bio-text-section {
   padding: 2rem 0rem;
 }
-.paragraph-spacing {
-  padding-bottom: 1.5rem;
-}
 
 @media(min-width: 667px) {
   .bio-card-container {
