@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import "./ContactForm.css"
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -67,8 +68,9 @@ export const ContactForm = () => {
         cols={20}
         required
       ></textarea><br />
-
-      <button type="submit">SEND</button>
+      <div className='button-container'>
+        <button type="submit">SEND</button>
+      </div>
     </form>
   );
 };

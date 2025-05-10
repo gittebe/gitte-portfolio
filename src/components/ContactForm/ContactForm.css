@@ -1,0 +1,23 @@
+.button-container {
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+button {
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  border: 2px solid var(--color-primary);
+  color: var(--color-secondary);
+  background-color: var(--color-primary);
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: var(--color-secondary);
+  color: var(--color-neutral);
+  border: var(--color-neutral);
+}
