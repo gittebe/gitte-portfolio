@@ -3,3 +3,11 @@
   --color-secondary: #202020;
   --color-neutral: #FFFFFF;
 }
+
+body {
+  background-color: var(--color-neutral);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}

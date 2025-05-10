@@ -3,13 +3,11 @@
   display: flex;
   flex-direction: column;
 }
-
-.spacer-one {
-  height: 2rem;
+.bio-text-section {
+  padding: 2rem 0rem;
 }
-
-.spacer-two {
-  height: 4rem;
+.paragraph-spacing {
+  padding-bottom: 1.5rem;
 }
 
 @media(min-width: 667px) {
