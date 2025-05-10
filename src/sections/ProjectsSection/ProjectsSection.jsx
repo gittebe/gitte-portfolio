@@ -23,7 +23,8 @@ export const ProjectsSection = () => {
   };
 
   return (
-    <section className="projects-section">
+    <section className="projects-section"
+    id="projects">
       <HeaderTwo>
         Featured Projects
       </HeaderTwo>

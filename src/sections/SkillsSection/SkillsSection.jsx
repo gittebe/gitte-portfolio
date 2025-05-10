@@ -6,7 +6,9 @@ import "./SkillsSection.css"
 export const SkillsSection = () => {
   return (
     <Grid background="neutral">
-      <section className="skills-section">
+      <section className="skills-section"
+      id="skills"
+      >
         <HeaderTwo>
           Skills
         </HeaderTwo>

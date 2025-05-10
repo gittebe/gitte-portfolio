@@ -4,7 +4,8 @@ import "./JourneySection.css"
 
 export const JourneySection = () => {
   return (
-    <section className="journey-section">
+    <section className="journey-section"
+    id="journey">
       <HeaderTwo>
         My Journey
       </HeaderTwo>

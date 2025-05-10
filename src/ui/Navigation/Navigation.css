@@ -1,0 +1,28 @@
+.navigation-section {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.ul-navigation {
+  display: flex;
+  align-items:center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.li-navigation {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.li-navigation a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.li-navigation a:hover {
+  text-decoration: underline;
+}
