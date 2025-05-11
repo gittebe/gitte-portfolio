@@ -1,5 +1,5 @@
 import { HeaderTwo } from "../../ui/Typography/Typography";
-import { JourneyCard } from "../../components/JourneyCard/JourneyCard";
+import { JourneyCardList } from "../../components/JourneyCardList/JourneyCardList";
 import "./JourneySection.css"
 
 export const JourneySection = () => {
@@ -10,7 +10,7 @@ export const JourneySection = () => {
         My Journey
       </HeaderTwo>
       <div className="journey-scroll-container">
-        <JourneyCard></JourneyCard>
+        <JourneyCardList></JourneyCardList>
       </div>
     </section>
   )
