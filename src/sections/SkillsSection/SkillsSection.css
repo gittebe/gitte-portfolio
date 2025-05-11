@@ -1,29 +1,49 @@
 .skills-section {
-  grid-column: span 4;
+  margin: 0;
+}
+.skills {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+@media (min-width: 667px) {
+  .skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.skills div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  color: var(--color-secondary);
+  text-align: center;
+  width: 80px;
+  max-height: 200px;
+  height: 100%;
+  padding: 10px;
+
+  box-sizing: border-box;
 }
 
-.spacer-one {
-  height: 4rem;
-}
-
-@media(min-width: 667px) {
-  .skills-section {
-    grid-column: span 8;
+@media (min-width: 400px) {
+  .skills div {
+    width: 120px;
   }
 }
 
-@media(min-width: 1024px) {
-  .skills-section {
-    grid-column: span 12;
+@media (min-width: 667px) {
+  .skills div {
+    max-width: 150px;
   }
+}
 
-  .skills-container {
-    display: flex;
-  }
+.skills img {
+  width: 80%;
+  height: 60%;
+  object-fit: contain;
 }
