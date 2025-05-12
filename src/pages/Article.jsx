@@ -1,12 +1,38 @@
-import { useParams } from 'react-router-dom';
+import { useParams } from "react-router-dom";
+import journeyData from "../journey.json";
+import { Link } from "react-router-dom";
+import "./Article.css"
 
 export const Article = () => {
   const { id } = useParams();
+  const article = journeyData[parseInt(id, 10)];
 
+  if (!article) {
+    return <p>Article not found.</p>;
+  }
+
+  const formatArticle = (text) => {
+    return text.split("<br />").map((line, index) => (
+      <p key={index}>{line.trim()}</p>
+    ));
+  };
   return (
-    <div>
-      <h1>Full Article {id}</h1>
-      {/* Full article content here */}
+    <div className="article-wrapper">
+      <header className="article-header">
+        <Link to={"/"} className="link-back-to-home">
+          <img src="/assets/arrow-left.png" alt="" className="arrow" />
+          <p>Back to Home</p>
+        </Link>
+      </header>
+      <main>
+        <div className="article-container">
+          <h1>{article.header}</h1>
+          <img src={article.cardImage.replace("./", "/")} alt={article.alt} />
+          <div className="article-text">
+            {formatArticle(article.article)}
+          </div>
+        </div>
+      </main>
     </div>
   );
 };

@@ -6,12 +6,10 @@ export const BioCard = () => {
   return (
     <>
       <div className="bio-card-container">
-        <HeaderThree>
-          I am Gitte Beckmann
-        </HeaderThree>
         <HeaderOne>
-          Web Developer
+          Gitte Beckmann
         </HeaderOne>
+        <p className="web-developer">Web Developer</p>
         <section className="bio-text-section">
         <Body>
           Hello! I'm Gitte, a full-stack web developer with international work experience across Europe, East Africa, and the United States. I now live in a small village in Sörmland, about an hour by train from Stockholm, Sweden.

@@ -1,0 +1,48 @@
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.article-header {
+  width: 100%;
+  display: flex;
+}
+
+.link-back-to-home {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+  font-weight: 600px;
+  color: var(--color-seconary);
+  display: flex;
+  align-items: center;
+}
+
+.arrow {
+  margin: 5px;
+}
+.article-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+}
+
+img {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.article-text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.arrow {
+  width: 50px;
+}

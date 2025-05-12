@@ -2,19 +2,21 @@
   font-family: 'Roboto', sans-serif;
   font-size: 3.75rem;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 3rem;
   margin: 0;
   padding: 0;
+  color: #00838F;
 }
 
 .header-two {
   font-family: 'Roboto', sans-serif;
   grid-column: span 4;
   text-align: center;
-  font-size: 3.75rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 0;
   padding: 0;
+  color: #00838F;
 }
 
 .header-three {
