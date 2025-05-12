@@ -19,7 +19,6 @@ export const BioCard = () => {
         </Body>
         </section>
         <div className="spacer-two"></div>
-        <MediaLinkContainer />
       </div >
     </>
   )
