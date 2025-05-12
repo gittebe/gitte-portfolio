@@ -10,7 +10,7 @@ export const SkillsCard = ({ header, body }) => {
         <HeaderThree>{header}</HeaderThree>
         <ul className="skills-list">
           {body.map((body, index) => (
-            <li className="list-item" key={index} >
+            <li className="list-item" key={index} tabIndex={0}>
               <Body>{body}</Body>
             </li>
           ))}
