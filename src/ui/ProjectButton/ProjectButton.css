@@ -19,7 +19,7 @@
 
 .primary-background {
   background-color: var(--color-primary);
-  color: var(--color-secondary);
+  color: var(--color-neutral);
 }
 
 .neutral-background {

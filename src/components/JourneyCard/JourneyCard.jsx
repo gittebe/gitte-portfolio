@@ -4,6 +4,8 @@ import { Body, HeaderThree } from "../../ui/Typography/Typography";
 import { CardImage } from "../../ui/CardImage/CardImage";
 import journeyData from "../../../src/journey.json";
 import "./JourneyCard.css";
+import { useNavigate } from "react-router-dom";
+
 
 // Utility function to truncate text
 const truncateText = (text, length) => {
@@ -11,15 +13,17 @@ const truncateText = (text, length) => {
   return tempText.length <= length ? tempText : tempText.slice(0, length) + "...";
 };
 
+
+
 export const JourneyCard = ({ journey, index }) => {
-if (!journey) {
+  if (!journey) {
     return <div className="journey-card">No journey data available.</div>;
   }
-
+  const navigate = useNavigate();
   return (
     <div className="journey-card">
       <CardImage cardImage={journey.cardImage} alt={journey.alt} />
-      
+
       <div className="journey-title">
         <HeaderThree>{journey.header}</HeaderThree>
       </div>
@@ -29,9 +33,11 @@ if (!journey) {
       </div>
 
       <div className="button-container">
-        <Link to={`/journey/${index}`}>
-          <ProjectButton label="Read Article" background="neutral" />
-        </Link>
+        <ProjectButton
+          label="Read Article"
+          background="primary"
+          onClick={() => navigate(`/journey/${index}`)}
+        />
       </div>
     </div>
   );

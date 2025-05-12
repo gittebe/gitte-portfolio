@@ -19,9 +19,9 @@ export const Article = () => {
   return (
     <div className="article-wrapper">
       <header className="article-header">
-        <Link to={"/"} className="link-back-to-home">
+        <Link to={"/"} className="link-back-to-home" aria-label="Back to Home">
           <img src="/assets/arrow-left.png" alt="" className="arrow" />
-          <p>Back to Home</p>
+          <span>Back to Home</span>
         </Link>
       </header>
       <main>

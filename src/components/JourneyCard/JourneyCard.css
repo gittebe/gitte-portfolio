@@ -26,3 +26,8 @@
   word-wrap: break-word;
   white-space: normal;
 }
+
+.button-article {
+  text-decoration: none;
+  color: white;
+}
