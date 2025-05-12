@@ -78,13 +78,5 @@
     "description":"A responsive and accessible web form for new member registration at the Cinema Club. Includes styled input fields, dropdowns, and a scalable checkbox. Built with HTML and CSS, designed for usability and clean layout across devices.",
     "liveDemo": "https://cinema-club-membership-form.netlify.app/",
     "viewCode": "https://github.com/gittebe/cinema-club-form"
-  },
-  {
-    "cardImage": "/assets/pet-shop-project.png",
-    "alt": "Shows a webpage of a fictional Pet Shop",
-    "header": "Pet Shop",
-    "description":"This website is built using only HTML and CSS, with accessible semantic HTML elements and user-friendly color combinations. Websites like this are ideal for static content: they load quickly, need minimal storage, and require very little maintenance.",
-    "liveDemo": "https://pet-shop-paws-and-whiskers.netlify.app/",
-    "viewCode": "https://github.com/gittebe/Pet-Shop?tab=readme-ov-file"
   }
 ]

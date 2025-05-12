@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react"
 import { CardImage } from "../../ui/CardImage/CardImage"
-import { ProjectButton } from "../../ui/ProjectButton/ProjectButton"
-import { HeaderThree, Body} from "../../ui/Typography/Typography"
+import { LinkBox } from "../../ui/LinkBox/LinkBox"
+import { HeaderThree, Body } from "../../ui/Typography/Typography"
 import "./ProjectCard.css"
 import projectData from "../../../src/projects.json"
 
@@ -23,19 +23,13 @@ export const ProjectCard = () => {
           <div className="project-description-container">
             <Body>{project.description}</Body>
           </div>
-          <div className="button-container">
-            <ProjectButton
-              label="Live demo"
-              background="primary"
-              onClick={() => window.open(project.liveDemo, "_blank")}
-            >
-            </ProjectButton>
-            <ProjectButton
-              label="View Code"
-              background="neutral"
-              onClick={() => window.open(project.viewCode, "_blank")}
-            >
-            </ProjectButton>
+          <div className="linkbox-wrapper">
+            <LinkBox
+              links={[
+                { href: project.liveDemo, label: "Live demo", background: "primary" },
+                { href: project.viewCode, label: "View Code", background: "neutral" }
+              ]}
+            />
           </div>
         </div>
       ))}
