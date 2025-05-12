@@ -25,14 +25,13 @@ export const JourneyCard = ({ journey, index }) => {
       <div className="journey-description">
         <Body>{truncateText(journey.article, 100)}</Body>
       </div>
-      <div className="link-wrapper">
-        <Link
-          to={`/journey/${index}`}
-          className="journey-link"
-        >
+
+      <Link
+        to={`/journey/${index}`}
+        className="journey-link"
+      >
           Read Article
-        </Link>
-      </div>
+      </Link>
     </div>
   );
 };

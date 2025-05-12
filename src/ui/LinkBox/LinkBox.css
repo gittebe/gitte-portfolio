@@ -5,12 +5,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  
   width: 100%;
 }
 
 .link-ul li {
   display: flex;
+  text-align: center;
   margin: 0.5rem 0;
+  width: 100%;
 }
 
 .link-ul a {

@@ -14,7 +14,6 @@ export const LinkBox = ({ links = [] }) => {
             rel="noopener noreferrer"
           >
             {label}
-            <span className="sr-only"> </span>
           </a>
         </li>
       ))}

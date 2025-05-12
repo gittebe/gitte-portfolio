@@ -5,13 +5,14 @@
     flex-direction: column;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px; 
+    padding: 0.5rem;
 }
 
 .project-title {
     width: 100%;
     word-wrap: break-word;
     white-space: normal;
+    padding: 0.5rem;
 }
 
 .project-description-container {
