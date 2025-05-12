@@ -29,7 +29,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  border-color: yellow;
+  border-color: #005fcc;
   outline: none;
 }
 

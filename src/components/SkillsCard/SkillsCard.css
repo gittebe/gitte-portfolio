@@ -35,11 +35,6 @@
     margin: 0;
 }
 
-.list-item:focus {
-  outline: 2px solid var(--color-primary);
-  border-radius: 4px;
-}
-
 @media(min-width: 1024px) {
     .skills-box {
         display: flex;
