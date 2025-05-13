@@ -3,7 +3,7 @@ import "./SkillsSection.css"
 
 export const SkillsSection = () => {
   return (
-    <section className="skills-section">
+    <section className="skills-section" id="skills">
       <HeaderTwo>Skills</HeaderTwo>
       <article className="skills">
         <div>
