@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import "./MediaLink.css"
 
 export const MediaLink = ({ src, alt, link, aria }) => {

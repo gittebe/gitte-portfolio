@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import "./CardImage.css"
+import PropTypes from "prop-types";
+import "./CardImage.css";
 
 export const CardImage = ({ cardImage, alt }) => {
   return (

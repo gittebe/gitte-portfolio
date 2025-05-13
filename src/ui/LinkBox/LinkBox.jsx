@@ -1,4 +1,4 @@
-import "./LinkBox.css"
+import "./LinkBox.css";
 
 export const LinkBox = ({ links = [] }) => {
   return (

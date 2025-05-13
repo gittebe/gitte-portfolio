@@ -1,6 +1,6 @@
 import { HeaderTwo } from "../../ui/Typography/Typography";
 import { JourneyCardList } from "../../components/JourneyCardList/JourneyCardList";
-import "./JourneySection.css"
+import "./JourneySection.css";
 
 export const JourneySection = () => {
   return (

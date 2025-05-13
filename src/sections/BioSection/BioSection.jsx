@@ -1,6 +1,6 @@
-import { BioCard } from "../../components/BioCard/BioCard"
-import { BioImage } from "../../ui/BioImage/BioImage"
-import "./BioSection.css"
+import { BioCard } from "../../components/BioCard/BioCard";
+import { BioImage } from "../../ui/BioImage/BioImage";
+import "./BioSection.css";
 
 export const BioSection = () => {
   return (

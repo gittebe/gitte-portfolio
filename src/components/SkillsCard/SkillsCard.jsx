@@ -1,7 +1,7 @@
-import PropTypes from "prop-types"
-import { HeaderThree } from "../../ui/Typography/Typography"
-import { Body } from "../../ui/Typography/Typography"
-import "./SkillsCard.css"
+import PropTypes from "prop-types";
+import { HeaderThree } from "../../ui/Typography/Typography";
+import { Body } from "../../ui/Typography/Typography";
+import "./SkillsCard.css";
 
 export const SkillsCard = ({ header, body }) => {
   return (
@@ -10,7 +10,7 @@ export const SkillsCard = ({ header, body }) => {
         <HeaderThree>{header}</HeaderThree>
         <ul className="skills-list">
           {body.map((body, index) => (
-            <li className="list-item" key={index} tabIndex={0}>
+            <li className="list-item" key={index}>
               <Body>{body}</Body>
             </li>
           ))}

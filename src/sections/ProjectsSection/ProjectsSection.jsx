@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { HeaderTwo } from "../../ui/Typography/Typography";
 import { ProjectCard } from "../../components/ProjectCard/ProjectCard";
 import "./ProjectsSection.css";

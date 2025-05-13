@@ -19,6 +19,10 @@
   align-items: center;
 }
 
+.link-back-to-home:hover {
+color: #720256;
+}
+
 .arrow {
   margin: 5px;
 }

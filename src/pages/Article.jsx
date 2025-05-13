@@ -1,7 +1,7 @@
 import { useParams } from "react-router-dom";
 import journeyData from "../journey.json";
 import { Link } from "react-router-dom";
-import "./Article.css"
+import "./Article.css";
 
 export const Article = () => {
   const { id } = useParams();

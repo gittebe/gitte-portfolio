@@ -2,10 +2,10 @@ import { useParams } from "react-router-dom";
 import journeyData from "../../journey.json";
 
 const parseArticle = (article) => {
-  const paragraphs = article.split("</p>");
-  return paragraphs.map((paragraph, index) => {
-    if (paragraph.trim()) {
-      return <p key={index}>{paragraph.replace(/<p>/g, "").trim()}</p>;
+  const lines = article.split("<br />");
+  return lines.map((line, index) => {
+    if (line.trim()) {
+      return <p key={index}>{line.trim()}</p>;
     }
     return null;
   });

@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react"
-import { CardImage } from "../../ui/CardImage/CardImage"
-import { LinkBox } from "../../ui/LinkBox/LinkBox"
-import { HeaderThree, Body } from "../../ui/Typography/Typography"
-import "./ProjectCard.css"
-import projectData from "../../../src/projects.json"
+import { useState, useEffect } from "react";
+import { CardImage } from "../../ui/CardImage/CardImage";
+import { LinkBox } from "../../ui/LinkBox/LinkBox";
+import { HeaderThree, Body } from "../../ui/Typography/Typography";
+import "./ProjectCard.css";
+import projectData from "../../../src/projects.json";
 
 export const ProjectCard = () => {
   const [projects, setProjects] = useState([])
