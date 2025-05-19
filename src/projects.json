@@ -1,5 +1,13 @@
 [
   {
+    "cardImage": "/assets/accessquiz.png",
+    "alt": "Shows the landing page of the quiz",
+    "header": "AccessQuiz",
+    "description": "Movie Explorer is a React-based web application designed to let users discover movies from various genres using the TMDB API.",
+    "liveDemo": "https://access-quiz.netlify.app/",
+    "viewCode": "https://github.com/gittebe/AccessQuiz"
+  },
+  {
     "cardImage": "/assets/movie.png",
     "alt": "Image of Project",
     "header": "Movies",
@@ -67,7 +75,7 @@
     "cardImage": "/assets/pizza-bot.png",
     "alt": "Bot Project",
     "header": "Pizza & Café Bot",
-    "description":"This is an ordering system for a pizzeria and café, allowing users to select from a variety of food and drink options.",
+    "description":"A quiz app to learn and test your knowledge about web accessibility, built with React.",
     "liveDemo": "https://pizza-pasta-salad.netlify.app/",
     "viewCode": "https://github.com/gittebe/project-pizza"
   },
