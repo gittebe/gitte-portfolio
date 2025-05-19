@@ -83,7 +83,7 @@
     "cardImage": "/assets/cinema-project.png",
     "alt": "Shows a website with fictional cinema membership sign up form",
     "header": "Cinema membership",
-    "description":"A responsive and accessible web form for new member registration at the Cinema Club. Includes styled input fields, dropdowns, and a scalable checkbox. Built with HTML and CSS, designed for usability and clean layout across devices.",
+    "description":"A responsive and accessible web form for new member registration at a fictive Cinema Club. Built with HTML and CSS, designed for usability and clean layout across devices.",
     "liveDemo": "https://cinema-club-membership-form.netlify.app/",
     "viewCode": "https://github.com/gittebe/cinema-club-form"
   }
