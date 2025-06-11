@@ -5,7 +5,7 @@
   line-height: 3rem;
   margin: 0;
   padding: 0;
-  color: #00838F;
+  color: var(--color-primary);
 }
 
 .header-two {
@@ -16,7 +16,7 @@
   font-weight: 700;
   margin: 2rem;
   padding: 0;
-  color: #00838F;
+  color: var(--color-primary);
 }
 
 .header-three {
@@ -30,7 +30,7 @@
 
 .body {
   font-family: 'Roboto', sans-serif;
-  font-size: 1.125rem;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: 2rem;

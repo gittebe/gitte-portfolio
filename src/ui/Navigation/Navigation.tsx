@@ -7,11 +7,11 @@ export const Navigation = () => {
 
   return (
     <section id="top" className="navigation-section">
-      <div className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
+      <button className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu}>
         <div className="bar"></div>
         <div className="bar"></div>
         <div className="bar"></div>
-      </div>
+      </button>
 
     <ul className={`ul-navigation ${isMenuOpen ? "open" : ""}`}>
       <li className="li-navigation"><a href="#top" >Home</a></li>

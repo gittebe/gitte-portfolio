@@ -13,12 +13,13 @@ textarea {
   padding: 0.5rem;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  border: 2px solid var(--color-primary);
+  font-size: 16px;
+  border: 2px solid var(--color-secondary);
 }
 
 input {
   background-color: var(--color-neutral);
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 textarea {
@@ -35,7 +36,7 @@ textarea:focus {
 
 input::placeholder,
 textarea::placeholder {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .button-container {
@@ -50,7 +51,7 @@ button {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 20px;
   border: 2px solid var(--color-primary);
   color: var(--color-neutral);
   background-color: var(--color-primary);
