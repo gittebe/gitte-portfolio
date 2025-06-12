@@ -4,7 +4,7 @@ import "./HeaderSection.css";
 export const HeaderSection = () => {
   return (
     <header>
-      <a href="#bio" className="skip-link" aria-label="Skip to Portfolio">Portfolio</a>
+      <a href="#about-me" className="skip-link" aria-label="Skip to Portfolio">Portfolio</a>
       <Navigation />
     </header>
   )
