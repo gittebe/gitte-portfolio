@@ -4,7 +4,7 @@ import "./BioSection.css";
 
 export const BioSection = () => {
   return (
-    <section className="bio-section">
+    <section className="bio-section" id="bio">
       <div className="bio-header">
         <BioCard />
       </div>

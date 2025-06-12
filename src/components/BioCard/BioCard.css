@@ -21,4 +21,5 @@
 
 .web-developer {
   font-size: 3rem;
+  color: var(--color-primary);
 }

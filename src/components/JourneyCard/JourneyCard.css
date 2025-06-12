@@ -24,7 +24,7 @@
 
 .journey-link {
   text-decoration: none;
-  color: var(--color-neutral);
+  color: var(--color-secondary);
   display: flex;
   font-weight: 700;
   font-size: 20px;;

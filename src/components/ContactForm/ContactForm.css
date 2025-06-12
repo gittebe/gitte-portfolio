@@ -51,9 +51,9 @@ button {
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.25rem;
   border: 2px solid var(--color-primary);
-  color: var(--color-neutral);
+  color: var(--color-secondary);
   background-color: var(--color-primary);
   transition: all 0.5s ease-out;
   cursor: pointer;

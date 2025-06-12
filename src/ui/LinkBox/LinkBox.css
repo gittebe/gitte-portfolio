@@ -26,7 +26,7 @@
 
 .link-ul a.primary {
   background-color: var(--color-primary);
-  color: var(--color-neutral);
+  color: var(--color-secondary);
   border: 2px solid var(--color-primary);
 }
 

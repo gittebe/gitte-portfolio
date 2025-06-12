@@ -1,13 +1,15 @@
 .navigation-section {
   display: flex;
   justify-content: flex-end;
-  padding: 0.5rem;
-  position: relative;
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 .ul-navigation {
   display: flex;
-  align-items:center;
+  align-items: center;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -20,7 +22,8 @@
 
 .li-navigation a {
   text-decoration: none;
-  color: inherit;
+  color: var(--color-primary);
+  font-size: 1.25rem;
 }
 
 .li-navigation a:hover {
@@ -28,42 +31,47 @@
   cursor: pointer;
 }
 
-.hamburger-menu {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 1001;
-}
-
-.bar {
-  width: 30px;
-  height: 4px;
-  background-color: var(--color-secondary);
-  margin: 5px 0;
-  transition: transform 0.3s, opacity 0.3s;
-}
-
 @media (max-width: 768px) {
   .hamburger-menu {
+    position: relative;
+    z-index: 1001;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .bar {
+    width: 30px;
+    height: 3px;
+    margin: 3px 0;
+    transition: all 0.3s ease-in-out;
+    background-color: var(--color-neutral);
   }
 
   .ul-navigation {
     display: none;
     flex-direction: column;
     position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    padding: 5px 0 600px 0;
-    background-color: var(--color-neutral);
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 5px 0;
+    background-color: var(--color-secondary);
+    z-index: 1000;
   }
 
   .ul-navigation.open {
     display: flex;
+    padding-top: 4rem;
   }
 
   .li-navigation {
@@ -72,8 +80,8 @@
   }
 
   .li-navigation a {
-    font-size: 18px;
-    color: var(--color-secondary);
+    font-size: 1.5rem;;
+    color: var(--color-neutral);
     text-decoration: none;
     font-weight: 500;
   }
@@ -81,8 +89,7 @@
 
 .hamburger-menu.open .bar:nth-child(1) {
   transform: rotate(45deg);
-  position: relative;
-  top: 14px;
+  position: absolute;
 }
 
 .hamburger-menu.open .bar:nth-child(2) {
@@ -91,6 +98,5 @@
 
 .hamburger-menu.open .bar:nth-child(3) {
   transform: rotate(-45deg);
-  position: relative;
-  bottom: 14px;
+  position: absolute;
 }

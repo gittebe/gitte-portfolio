@@ -1,11 +1,11 @@
 :root {
-  --color-primary:#186B61;
+  --color-primary:#36d9c6;
   --color-secondary: #202020;
-  --color-neutral: #FFFFFF;
+  --color-neutral: #fefcfc;
 }
 
 body {
-  background-color: var(--color-neutral);
+  background-color: var(--color-secondary);
   margin: 0;
   padding: 1rem;
   box-sizing: border-box;
