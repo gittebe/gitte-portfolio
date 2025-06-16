@@ -15,7 +15,7 @@ export const SkillsSection = () => {
           <p>gitHub</p>
         </div>
         <div>
-          <img src="/assets/logo-html.png" alt=""></img>
+          <img src="/assets/logo-html-white.png" alt=""></img>
           <p>HTML</p>
         </div>
         <div>
@@ -23,7 +23,7 @@ export const SkillsSection = () => {
           <p>CSS</p>
         </div>
         <div>
-          <img src="/assets/logo-java-script.png" alt=""></img>
+          <img src="/assets/logo-javascript.png" alt=""></img>
           <p>JavaScript</p>
         </div>
         <div>
@@ -33,10 +33,6 @@ export const SkillsSection = () => {
          <div>
           <img src="/assets/logo-react.png" alt=""></img>
           <p>React</p>
-        </div>
-         <div>
-          <img src="/assets/logo-express.png" alt=""></img>
-          <p>Express.js</p>
         </div>
         <div>
           <img src="/assets/logo-mongodb.png" alt=""></img>
@@ -57,6 +53,14 @@ export const SkillsSection = () => {
         <div>
           <img src="/assets/logo-figma.png" alt=""></img>
           <p>Figma</p>
+        </div>
+        <div>
+          <img src="/assets/logo-postman.png" alt=""></img>
+          <p>Postman</p>
+        </div>
+        <div>
+          <img src="/assets/logo-vscode.png" alt=""></img>
+          <p>Visual Studio Code</p>
         </div>
       </article>
     </section>

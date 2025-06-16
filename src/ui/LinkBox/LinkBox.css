@@ -33,7 +33,7 @@
 .link-ul a.primary:hover {
   background-color: var(--color-secondary);
   color: var(--color-neutral);
-  border: 2px solid var(--color-secondary);
+  border: 2px solid var(--color-primary);
 }
 
 .link-ul a.neutral {
@@ -45,7 +45,7 @@
 .link-ul a.neutral:hover {
   background-color: var(--color-secondary);
   color: var(--color-neutral);
-  border: 2px solid var(--color-secondary);
+  border: 2px solid var(--color-primary);
 }
 
 .link-ul a:focus,
