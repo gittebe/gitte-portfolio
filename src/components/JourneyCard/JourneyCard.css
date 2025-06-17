@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  border: 2px solid var(--color-primary);
 }
 
 .journey-link:hover {
