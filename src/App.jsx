@@ -7,12 +7,10 @@ function App() {
   return (
     <BrowserRouter>
     <ScrollToTop/>
-      <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/journey/:id" element={<Article />} />
         </Routes>
-      </main>
     </BrowserRouter>
   )
 }

@@ -14,18 +14,23 @@
   font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 600px;
-  color: var(--color-seconary);
+  color: var(--color-neutral);
   display: flex;
   align-items: center;
 }
 
 .link-back-to-home:hover {
-color: #720256;
+color: var(--color-primary);
 }
 
-.arrow {
-  margin: 5px;
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--color-primary);
+  margin: 1rem 0;
 }
+
 .article-container {
   display: flex;
   flex-direction: column;
@@ -41,12 +46,9 @@ img {
   display: block;
 }
 
-.article-text {
+p {
   font-family: Roboto, sans-serif;
   font-size: 18px;
   line-height: 1.5;
-}
-
-.arrow {
-  width: 50px;
+  color: var(--color-neutral);
 }

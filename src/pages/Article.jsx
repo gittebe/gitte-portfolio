@@ -20,17 +20,16 @@ export const Article = () => {
     <div className="article-wrapper">
       <header className="article-header">
         <Link to={"/"} className="link-back-to-home" aria-label="Back to Home">
-          <img src="/assets/arrow-left.png" alt="" className="arrow" />
           <span>Back to Home</span>
         </Link>
       </header>
-      <main>
+      <main aria-label="Article Content">
         <div className="article-container">
           <h1>{article.header}</h1>
           <img src={article.cardImage.replace("./", "/")} alt={article.alt} />
-          <div className="article-text">
+          <p className="article-text">
             {formatArticle(article.article)}
-          </div>
+          </p>
         </div>
       </main>
     </div>

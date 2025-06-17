@@ -50,5 +50,5 @@
 
 .link-ul a:focus,
 .link-ul a:active {
-  outline: 3px solid var(--color-secondary);
-}
+  outline: 3px solid rgb(244, 8, 173);
+} 
