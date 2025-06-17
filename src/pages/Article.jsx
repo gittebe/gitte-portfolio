@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import journeyData from "../journey.json";
 import { Link } from "react-router-dom";
+import {Helmet} from "react-helmet-async";
 import "./Article.css";
 
 export const Article = () => {
@@ -18,6 +19,10 @@ export const Article = () => {
   };
   return (
     <div className="article-wrapper">
+      <Helmet>
+        <title>{article.header} – Gittes Journey</title>
+        <meta name="description" content={`Article: ${article.header}`} />
+      </Helmet>
       <header className="article-header">
         <Link to={"/"} className="link-back-to-home" aria-label="Back to Home">
           <span>Back to Home</span>
