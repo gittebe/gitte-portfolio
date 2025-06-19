@@ -29,6 +29,7 @@ export const JourneyCard = ({ journey, index }) => {
       <Link
         to={`/journey/${index}`}
         className="journey-link"
+        aria-label={`Read full article: ${journey.header}`}
       >
           Read Article
       </Link>
