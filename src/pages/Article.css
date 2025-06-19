@@ -53,3 +53,8 @@ p {
   line-height: 1.5;
   color: var(--color-neutral);
 }
+
+.article-audio {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
