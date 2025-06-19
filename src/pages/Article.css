@@ -21,6 +21,7 @@
 
 .link-back-to-home:hover {
 color: var(--color-primary);
+text-decoration: underline;
 }
 
 h1 {

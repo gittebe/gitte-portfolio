@@ -17,11 +17,11 @@ export const FooterSection = () => {
   }, [inView]);
 
   return (
-    <section ref={ref} className="footer-section"
+    <footer ref={ref} className="footer-section"
       id="contact"
     >
       <HeaderTwo>Contact</HeaderTwo>
       <FooterCard />
-    </section>
+    </footer>
   )
 }
