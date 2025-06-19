@@ -3,15 +3,16 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="description"
-    Content="Welcome to Gitte's portfolio, a JavaScript developer passionate about modern web development, clean code, and creative solutions." />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio Gitte</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-  <title>Portfolio Gitte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="description"
+    Content="Welcome to Gitte's portfolio, a JavaScript developer passionate about modern web development, clean code, and creative solutions." />
 </head>
+
 <body>
   <noscript>
     <div style="text-align: center; padding: 1rem; background: #fefefe; color: rgb(5, 9, 130);">
@@ -19,12 +20,12 @@
     </div>
   </noscript>
   <form name="portfolio-contact" netlify netlify-honeypot="bot-field" hidden>
-  <input type="hidden" name="form-name" value="portfolio-contact" />
-  <input type="text" name="name" autocomplete="name" />
-  <input type="email" name="email" autocomplete="email"/>
-  <textarea name="message" autocomplete="off"></textarea>
-  <input name="bot-field" autocomplete="off"/>
-</form>
+    <input type="hidden" name="form-name" value="portfolio-contact" />
+    <input type="text" name="name" autocomplete="name" />
+    <input type="email" name="email" autocomplete="email" />
+    <textarea name="message" autocomplete="off"></textarea>
+    <input name="bot-field" autocomplete="off" />
+  </form>
 
   <div id="root"></div>
   <script type="module" src="/src/main.jsx"></script>
