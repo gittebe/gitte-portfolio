@@ -9,31 +9,27 @@
 
 .projects-grid-container {
   display: grid;
-   grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(1, 1fr);
   justify-content: center;
   gap: 1rem;
   max-width: 800px;
 }
-@media(min-width: 667px){
+
+@media(min-width: 667px) {
   .projects-grid-container {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media(min-width: 1024px){
+@media(min-width: 1024px) {
   .projects-grid-container {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media(min-width: 1200px){
+@media(min-width: 1200px) {
   .projects-grid-container {
     grid-template-columns: repeat(4, 1fr);
   }
 }
-
-
-
-
-

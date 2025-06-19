@@ -1,9 +1,22 @@
+import { useEffect } from "react";
+import { useInView } from "react-intersection-observer";
 import { HeaderTwo } from "../../ui/Typography/Typography";
 import "./SkillsSection.css"
 
 export const SkillsSection = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.5,
+    triggerOnce: false,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      document.title = "Tech Stack - Portfolio Gitte";
+    }
+  }, [inView]);
+
   return (
-    <section className="skills-section" id="skills">
+    <section ref={ref} className="skills-section" id="skills">
       <HeaderTwo>Skills</HeaderTwo>
       <article className="skills">
         <div>
